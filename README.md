@@ -18,3 +18,6 @@
 
 Репозиторий для Arduino, по управлению клавиатурой и экраном для SmartResponseXE - https://github.com/bitbank2/SmartResponseXE
 (копия в текущем репозитории "archive/SmartResponseXE-master.zip")
+
+<h1>Переделка SmartResponseXE в Arduino-SmartResponseXE</h1>
+Чтобы переделать терминал сбора данных SmartResponseXE в Arduino, нужно немного доработать само ус-во (вывести на ружу порты для программирования платы), и залить загрузчик. После этого, ус-во будет вести себя как обычный прокаченный Arduino, с дисплеем, клавиатурой и беспроводным интерфейсом.
