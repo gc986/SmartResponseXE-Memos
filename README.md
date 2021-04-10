@@ -27,4 +27,4 @@
 Ниже приведёна последовательность разбора устройства. Устройство собрано на редкость хорошо, все пазы на месте, прямо такое антивандальное ус-во для использования в школах. Теме не менее будьте аккуратны при разборе, и не забудьте про винтик под батарейным блоком:
 
 
-1. <img srd="https://github.com/gc986/SmartResponseXE-Memos/blob/main/images/disassembling-1.jpg">
+1. <img src="https://github.com/gc986/SmartResponseXE-Memos/blob/main/images/disassembling-1.jpg">
