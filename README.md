@@ -27,34 +27,34 @@
 Ниже приведёна последовательность разбора устройства. Устройство собрано на редкость хорошо, все пазы на месте, прямо такое антивандальное ус-во для использования в школах. Теме не менее будьте аккуратны при разборе, и не забудьте про винтик под батарейным блоком:
 
 
-1
+1<br>
 <img src="https://github.com/gc986/SmartResponseXE-Memos/blob/main/images/disassembling-1.jpg">
 
-2
+2<br>
 <img src="https://github.com/gc986/SmartResponseXE-Memos/blob/main/images/disassembling-2.jpg">
 
-3
+3<br>
 <img src="https://github.com/gc986/SmartResponseXE-Memos/blob/main/images/disassembling-3.jpg">
 
-4
+4<br>
 <img src="https://github.com/gc986/SmartResponseXE-Memos/blob/main/images/disassembling-4.jpg">
 
-5
+5<br>
 <img src="https://github.com/gc986/SmartResponseXE-Memos/blob/main/images/disassembling-5.jpg">
 
-6
+6<br>
 <img src="https://github.com/gc986/SmartResponseXE-Memos/blob/main/images/disassembling-6.jpg">
 
-7
+7<br>
 <img src="https://github.com/gc986/SmartResponseXE-Memos/blob/main/images/disassembling-7.jpg">
 
-8
+8<br>
 <img src="https://github.com/gc986/SmartResponseXE-Memos/blob/main/images/disassembling-8.jpg">
 
-9
+9<br>
 <img src="https://github.com/gc986/SmartResponseXE-Memos/blob/main/images/disassembling-9.jpg">
 
-10
+10<br>
 <img src="https://github.com/gc986/SmartResponseXE-Memos/blob/main/images/disassembling-10.jpg">
 
 
