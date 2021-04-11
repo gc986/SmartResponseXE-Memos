@@ -58,3 +58,21 @@
 <img src="https://github.com/gc986/SmartResponseXE-Memos/blob/main/images/disassembling-10.jpg">
 
 
+<h2>Подключение к ISP (загрузка прошивки)</h2>
+Для загрузки прошивки в микроконтроллер терминала, я пользуюсь страндартным интерфейсом ISP. Для него вынесена специальная площадка для подключения. Для удобства работы с интерфейсом,я предлагаю подпаять провода для дальнейшего подключенияк программатору.
+<br>
+<img src="https://github.com/gc986/SmartResponseXE-Memos/blob/main/images/ISP-0.jpg">
+
+<br>
+Для подключения и использую стандартные провода для макетирования, предварительно отрезав крайнюю часть. Очень удобно что в корпусе терминала есть технологические отверстия. В них удобно протянуть провода и закрутить в узел чтобы в дальнейшем они не имели шанс быть выдернутыми.
+<br>
+<img src="https://github.com/gc986/SmartResponseXE-Memos/blob/main/images/ISP-1.jpg">
+<br>
+<img src="https://github.com/gc986/SmartResponseXE-Memos/blob/main/images/ISP-2.jpg">
+
+
+После того как вы припаяите провода, у вас может получиться следующий результат:
+<br>
+<img src="https://github.com/gc986/SmartResponseXE-Memos/blob/main/images/ISP-3.jpg">
+
+
