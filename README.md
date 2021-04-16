@@ -76,3 +76,10 @@
 <img src="https://github.com/gc986/SmartResponseXE-Memos/blob/main/images/ISP-3.jpg">
 
 
+#Нехватка прав при попытке прошить плату в Linux с помощью avrdude
+Если при попытке прошить SmartResponseXE в Linux вы сталкиваетесь с ошибкой нехватки прав, то вам поможет вот этот скрипт
+
+<i>echo "SUBSYSTEM==\"usb\", MODE=\"0660\", GROUP=\"$(id -gn)\"" | sudo tee /etc/udev/rules.d/00-usb-permissions.rules
+udevadm control --reload-rules</i>
+
+Данные команды делает вашего пользователя Linux неограниченным пользователем USB устройств. С точки зрения безопасности это плохо, так как любой код запущенный от вашего имени будет иметь неограниченный доступ к USB устройствам, но с другой стороны ничего лучше не получилось сделать, так как разработчики avrdude работают с данными USB устройства напрямую, в обход стандартного протокола работы с USB. (оригинал https://github.com/snapcrafters/arduino/issues/10)
