@@ -80,13 +80,13 @@
 
 Если при попытке прошить SmartResponseXE в Linux вы сталкиваетесь с ошибкой нехватки прав:
 
-<i>avrdude: usbdev_open(): cannot open device: Permission denied</i>
+<i><b>avrdude: usbdev_open(): cannot open device: Permission denied</b></i>
 
 То вам помогут вот эти команды:
 
-<i>echo "SUBSYSTEM==\"usb\", MODE=\"0660\", GROUP=\"$(id -gn)\"" | sudo tee /etc/udev/rules.d/00-usb-permissions.rules
-  
-udevadm control --reload-rules</i>
+<i><b>echo "SUBSYSTEM==\"usb\", MODE=\"0660\", GROUP=\"$(id -gn)\"" | sudo tee /etc/udev/rules.d/00-usb-permissions.rules
+<br>
+udevadm control --reload-rules</b></i>
 
 ! Переподключите программатор/устройство и только после этого новые правила вступят в силу !
 
