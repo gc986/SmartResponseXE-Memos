@@ -77,7 +77,12 @@
 
 
 #Нехватка прав при попытке прошить плату в Linux с помощью avrdude
-Если при попытке прошить SmartResponseXE в Linux вы сталкиваетесь с ошибкой нехватки прав, то вам поможет вот этот скрипт
+
+Если при попытке прошить SmartResponseXE в Linux вы сталкиваетесь с ошибкой нехватки прав:
+
+<i>avrdude: usbdev_open(): cannot open device: Permission denied</i>
+
+То вам помогут вот эти команды:
 
 <i>echo "SUBSYSTEM==\"usb\", MODE=\"0660\", GROUP=\"$(id -gn)\"" | sudo tee /etc/udev/rules.d/00-usb-permissions.rules
 udevadm control --reload-rules</i>
