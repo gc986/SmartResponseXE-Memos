@@ -84,7 +84,7 @@
 
 То вам помогут вот эти команды:
 
-<i><b>echo "SUBSYSTEM==\"usb\", MODE=\"0660\", GROUP=\"$(id -gn)\"" | sudo tee /etc/udev/rules.d/00-usb-permissions.rules
+<i><b>echo "SUBSYSTEM==\\"usb\\", MODE=\\"0660\\", GROUP=\\"$(id -gn)\\"" | sudo tee /etc/udev/rules.d/00-usb-permissions.rules
 <br>
 udevadm control --reload-rules</b></i>
 
