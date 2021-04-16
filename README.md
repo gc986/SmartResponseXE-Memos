@@ -76,7 +76,7 @@
 <img src="https://github.com/gc986/SmartResponseXE-Memos/blob/main/images/ISP-3.jpg">
 
 
-#Нехватка прав при попытке прошить плату в Linux с помощью avrdude
+# Нехватка прав при попытке прошить плату в Linux с помощью avrdude
 
 Если при попытке прошить SmartResponseXE в Linux вы сталкиваетесь с ошибкой нехватки прав:
 
