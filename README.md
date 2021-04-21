@@ -1,9 +1,16 @@
 # SmartResponseXE-Memos
-<h2>Мои заметки по SmartResponseXE</h2>
+
+<h1>Оглавление</h1>
+<a href="#about">Краткое описание SmartResponseXE</a>
+<a href="#links">Ссылки/Документация</a>
+
+
+
+<h2><a name="about">Краткое описание SmartResponseXE</a></h2>
 
 Чем интересено это устройство? Тем что построено на основе микроконтроллера ATmega128RFA1, у него есть встроенная клавиатура и замечательный монохромный дисплей. А чем же интересен микроконтроллер (<i>ATmega128RFA1</i>)? Он имеет встроенный передатчик работающий по стандарту ZigBee. И к тому же, эти железки (<i>SmartResponseXE</i>) есть в асортименте на Ebay, т.к. в своё время их закупали в больших количествах в школы, а сейчас продают по 10$ за пару штук.
 
-
+<a name="links"><h2>Ссылки/Документация</h2></a>
 Схемы добытые путём реверс инженеренгом и зоркими глазами - https://github.com/fdufnews/SMART-Response-XE-schematics
 
 <b>Оригинальный datasheet на чип ATmega128RFA1 (5mb!) - https://github.com/gc986/SmartResponseXE-Memos/blob/main/docs/ATmega128RFA1_Datasheeta.pdf</b>
