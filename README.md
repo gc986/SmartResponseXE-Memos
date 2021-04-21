@@ -1,8 +1,11 @@
 # SmartResponseXE-Memos
 
 <h1>Оглавление</h1>
-<a href="#about">Краткое описание SmartResponseXE</a>
-<a href="#links">Ссылки/Документация</a>
+<ul>
+<li><a href="#about">Краткое описание SmartResponseXE</a>
+<br>
+<li><a href="#links">Ссылки/Документация</a>
+</ul>
 
 
 
