@@ -7,7 +7,7 @@
   <li><a href="#remake-terminal">Переделка SmartResponseXE в Arduino-SmartResponseXE</a>
   <li><a href="#connecting-spi">Подключение к ISP (загрузка прошивки)<a>
   <li><a href="#no-access-linux-avr-dude">Нехватка прав при попытке прошить плату в Linux с помощью avrdude</a>
-  <li><a href="#features-terminal-smart-response-xe">Особенности технической реализации SMART Response XE</a>
+  <li><a href="#features-terminal-smart-response-xe">Особенности технической реализации SMART Response XE (клавиатура+uart)</a>
 </ul>
 
 
@@ -106,5 +106,5 @@ sudo udevadm control --reload-rules</b></i>
 Данные команды делает вашего пользователя Linux неограниченным пользователем USB устройств. С точки зрения безопасности это плохо, так как любой код запущенный от вашего имени будет иметь неограниченный доступ к USB устройствам, но с другой стороны ничего лучше не получилось сделать, так как разработчики avrdude работают с данными USB устройства напрямую, в обход стандартного протокола работы с USB. (оригинал https://github.com/snapcrafters/arduino/issues/10)
 
 
-<a name="features-terminal-smart-response-xe"><h2>Особенности технической реализации SMART Response XE</h2></a>
+<a name="features-terminal-smart-response-xe"><h2>Особенности технической реализации SMART Response XE (клавиатура+uart)</h2></a>
 Нога пятого столбца клавиатуры (клавиши 5, T, G, V), подключены на порт реализующий интерфейс подключения UART, поэтому одновременное использование UART и клаиватуры невозможно в нормальном режиме (при нажатии на клавиши пятого столбца будут происходить сробатывания десятого ряда клавиатуры, например при нажатии на клавишу T, систему будет определять что нажата клавиша P)
